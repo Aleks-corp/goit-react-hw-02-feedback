@@ -11,7 +11,7 @@ export const FeedbackOptions = ({ onLeaveFeedback }) => {
           onLeaveFeedback(e.target.name);
         }}
       >
-        Good
+        {feedbackNames.good}
       </Button>
       <Button
         type="button"
@@ -20,7 +20,7 @@ export const FeedbackOptions = ({ onLeaveFeedback }) => {
           onLeaveFeedback(e.target.name);
         }}
       >
-        Neutral
+        {feedbackNames.neutral}
       </Button>
       <Button
         type="button"
@@ -29,7 +29,7 @@ export const FeedbackOptions = ({ onLeaveFeedback }) => {
           onLeaveFeedback(e.target.name);
         }}
       >
-        Bad
+        {feedbackNames.bad}
       </Button>
     </>
   );
